@@ -14,7 +14,7 @@ This project was developed as part of my academic and personal portfolio to demo
 - Evaluate model performance and document analytical findings
 
 ## Dataset
-- Historical stock price data for selected companies (AAPL, NFLX, GOOG)
+- Historical stock price data for selected companies (AAPL, NFLX)
 - Features include Open, High, Low, Close prices and Trading Volume
 
 ## Tools and Technologies
@@ -33,6 +33,18 @@ financial-data-analysis/
 ├── report/     # Project documentation and report
 └── README.md
 ````
+## Visual Insights
+- Stock price trend analysis using SMA and EMA indicators
+- Momentum analysis using RSI and MACD indicators
+- Comparison of manual-based and library-based SVM model accuracy
+- Visual comparison of actual vs predicted prices using SVM
+
+## Key Insights and Findings
+- SMA and EMA indicators helped smooth short-term price fluctuations and made overall price trends easier to interpret
+- RSI values highlighted potential overbought and oversold periods, providing useful momentum signals for short-term analysis.
+- The manual SVM implementation helped reinforce understanding of how the algorithm works internally, while the library-based SVM achieved more stable and efficient performance
+- Model predictions followed by overall price movement trends but showed limitations during periods of volatility.
+
 ## Key Analysis Performed
 - Data cleaning and preprocessing of financial datasets
 - Exploratory data analysis (EDA) with visual insights
