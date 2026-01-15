@@ -1,1 +1,1 @@
-This folder contains project summaries and documentation.
+This folder includes a  detailed project report outlining methodology, analysis, and results.
